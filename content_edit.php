@@ -27,7 +27,7 @@ if($edit_result->num_rows > 0) {
 $change_title = preg_replace('/(<title>)(.*?)(<\/title>)/i', '$1'.$page_title.'$3', $change_title);
 echo $change_title;
 
-echo '
+echo ''
 <div id="cssmenu">
     <ul>
 ';
